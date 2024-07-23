@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="" />
+  <title>Nitesh Kumar</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon" />
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body class="light-theme">
+
+  <!-- Start scroll-up-button -->
+  <div class="scroll-up-btn" onclick="scrollToTop()">
+    <img src="./assets/images/scroll-top-img.png" alt="scroll top icon" />
+  </div>
+  <!-- End scroll-up-button -->
+
+  <!--
+    - #HEADER
+  -->
+
+  <header>
+
+    <div class="container">
+
+      <nav class="navbar">
+
+        <a href="#">
+          <img src="./assets/images/logo.png" alt="logo" class="logo-light" />
+          <img src="./assets/images/logo.png" alt="logo" class="logo-dark" />
+        </a>
+
+        <div class="btn-group">
+          <button class="theme-btn theme-btn-mobile light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+        </div>
+
+        <div class="flex-wrapper">
+          <ul class="desktop-nav">
+            <li>
+              <a href="#" class="nav-link">Home</a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/in/niteshkr3308/" target="_blank"
+                class="nav-link">About Me</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/niteshkr3308/" target="_blank"
+                class="nav-link">Portfolio</a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/in/niteshkr3308/" target="_blank"
+                class="nav-link">Contact</a>
+            </li>
+          </ul>
+
+          <button class="theme-btn theme-btn-desktop light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+        </div>
+
+        <div class="mobile-nav">
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="wrapper">
+            <p class="h3 nav-title">Main Menu</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="https://www.linkedin.com/in/niteshkr3308/" target="_blank"
+                  class="nav-link">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a href="https://www.linkedin.com/in/niteshkr3308/" target="_blank"
+                  class="nav-link">Portfolio</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="https://www.linkedin.com/in/niteshkr3308/" target="_blank"
+                  class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <p class="h3 nav-title">Topics</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Web Developer</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Python</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">front-end Developer</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!--
+      - #HERO SECTION
+    -->
+
+    <div class="hero">
+      <div class="container">
+
+        <div class="left">
+          <h1 class="h1">
+            Hi, I'm <b>Nitesh Kumar</b> <br />Web Developer
+          </h1>
+
+          <p class="h3">Specialized in Web Development.</p>
+
+          <div class="btn-group">
+            <a href="https://www.linkedin.com/in/niteshkr3308/" target="_blank"
+              class="btn btn-primary">Contact Me
+              <ion-icon name="call"></ion-icon>
+            </a>
+            <a href="https://drive.google.com/file/d/16Pacyvu8QXJIo2IxhLwFWr9Q-9sqo5Hj/view?usp=sharing" target="_blank"
+              class="btn btn-secondary">Download CV
+              <ion-icon name="cloud-download-sharp"></ion-icon>
+            </a>
+          </div>
+        </div>
+
+        <div class="right">
+          <div class="pattern-bg"></div>
+          <div class="img-box">
+            <img src="./assets/images/hero.png" alt="Julia Walker" class="hero-img" />
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="container">
+
+        <!--
+          - BLOG SECTION
+        -->
+
+        <div class="blog">
+
+          <!-- Latest Projects -->
+
+          <h2 class="h2">Latest Projects</h2>
+
+          <div class="blog-card-group">
+
+            <div class="blog-card">
+              <div class="blog-card-banner">
+                <img src="./assets/images/projects/amazon.png" alt="to do app" class="blog-banner-img" />
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Projects</button>
+
+                <h3>
+                  <a href="https://github.com/niteshkr3308/Amazon-site-clone" class="h3" target="_blank">Amazon Clone</a>
+                </h3>
+
+                <p class="blog-text">
+                  Creating an Amazon clone using only HTML, CSS, and JavaScript involves building a static front-end web application that mimics the look and feel of Amazon's platform. This clone won't have backend functionalities like user authentication, database management, or payment processing, as these require server-side technologies.
+                </p>
+
+                <div class="wrapper-flex">
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/hero1.png" alt="hero1" />
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Nitesh Kumar</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-12-10">Dec 10, 2023</time>
+                      <!-- <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT2M">2 min</time> -->
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-card">
+              <div class="blog-card-banner">
+                <img src="./assets/images/projects/calculator.png" alt="calculator" width="200"
+                  class="blog-banner-img" />
+              </div>
+
+              <div class="blog-content-wrapper">
+                <button class="blog-topic text-tiny">Projects</button>
+
+                <h3>
+                  <a href="https://github.com/niteshkr3308/calculator" class="h3" target="_blank">
+                    Calculator
+                  </a>
+                </h3>
+
+                <p class="blog-text">
+                  Create a simple calculator using HTML, CSS, and JavaScript that performs basic arithmetic operations (addition, subtraction, multiplication, division) with an easy-to-use user interface.
+                </p>
+
+                <div class="wrapper-flex">
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/hero1.png" alt="hero1" />
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Nitesh Kumar</a>
+
+                    <p class="text-sm">
+                      <time datetime="2022-01-17">Jan 27, 2024</time>
+                      <!-- <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M">3 min</time> -->
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Problem Solving -->
+
+            <h2 class="h2">Problem Solving</h2>
+
+            <div class="blog-card">
+              <div class="blog-card-banner">
+                <img src="./assets/images/problem-solving/python.png" alt="Python" width="250"
+                  class="blog-banner-img" />
+              </div>
+
+              <div class="blog-content-wrapper">
+                <button class="blog-topic text-tiny">Problem-Solving</button>
+
+                <h3>
+                  <a href="https://github.com/niteshkr3308/python-All-method/blob/main/nitesh.ipynb" class="h3" target="_blank">python method problem solving</a>
+                </h3>
+
+                <p class="blog-text">
+                  Python all method problem-solving notes is to explain different Python methods with simple examples, helping you understand and use them to solve programming problems easily
+                </p>
+
+                <div class="wrapper-flex">
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/hero1.png" alt="Nitesh Kumar" />
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Nitesh Kumar</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-10-25">march 15, 2024</time>
+                      <!-- <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT7M">7 min</time> -->
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Latest Blogs -->
+
+            <h2 class="h2">Minor Project</h2>
+
+            <div class="blog-card">
+              <div class="blog-card-banner">
+                <img src="./assets/images/minor project/chatbot.png" alt="chatbot" width="250" class="blog-banner-img" />
+              </div>
+
+              <div class="blog-content-wrapper">
+                <button class="blog-topic text-tiny">Minor Project</button>
+
+                <h3>
+                  <a href="https://dev.to/mahmoudessam/what-is-debugging-5pi" class="h3" target="_blank">Kar-Lo Chat</a>
+                </h3>
+
+                <p class="blog-text">
+                  Develop a responsive chatbot interface using HTML and CSS for styling, and implement interactive functionalities with JavaScript to enhance user experience and provide automated support
+                </p>
+
+                <div class="wrapper-flex">
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/hero1.png" alt="hero1" />
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Nitesh Kumar</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-10-25">April 25, 2024</time>
+                      <!-- <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT7M">7 min</time> -->
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+          <button class="btn load-more">
+            <a href="https://www.linkedin.com/in/niteshkr3308/" target="_blank">Read More</a>
+          </button>
+        </div>
+
+        <!--
+          - ASIDE
+        -->
+
+        <div class="aside">
+          <div class="topics">
+            <h2 class="h2">Topics</h2>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="code-slash-sharp"></ion-icon>
+              </div>
+
+              <p>Web Developer</p>
+            </a>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="server-outline"></ion-icon>
+              </div>
+
+              <p>Python</p>
+            </a>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="rocket-outline"></ion-icon>
+              </div>
+
+              <p>front-end Developer</p>
+            </a>
+          </div>
+
+          <div class="tags">
+            <h2 class="h2">My Skills</h2>
+
+            <div class="wrapper">
+              <button class="hashtag">#HTML</button>
+              <button class="hashtag">#CSS</button>
+              <button class="hashtag">#JavaScript</button>
+              <button class="hashtag">#Bootstrap</button>
+              <button class="hashtag">#NodeJS</button>
+              <button class="hashtag">#Java</button>
+              <button class="hashtag">#SQL</button>
+              <button class="hashtag">#Python</button>
+              <button class="hashtag">#MongoDB</button>
+              <button class="hashtag">#Django</button>
+            </div>
+          </div>
+
+          <div class="contact">
+            <h2 class="h2">Let's Talk</h2>
+
+            <div class="wrapper">
+              <p>
+                Do you want to interact with me? Come join and let's have a conversation.
+              </p>
+
+              <ul class="social-link">
+                <li>
+                  <a href="https://www.linkedin.com/in/niteshkr3308/" target="_blank"
+                    class="icon-box linkedin">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://x.com/ctrl_z_power" class="icon-box twitter" target="_blank">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="hhttps://www.instagram.com/k_i_n_g_n_i_t_e_s_h/" class="icon-box instagram"
+                    target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="newsletter">
+            <h2 class="h2">Newsletter</h2>
+
+            <div class="wrapper">
+              <p>
+                Subscribe to our newsletter to get the latest updates first.
+              </p>
+
+              <form action="#">
+                <input type="email" name="email" placeholder="Email Address" required />
+
+                <button type="submit" class="btn btn-primary">
+                  Subscribe🔔
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+
+  <!--
+    - #FOOTER
+  -->
+
+  <footer>
+    <div class="container">
+
+      <div class="wrapper">
+        <a href="#" class="footer-logo">
+          <img src="./assets/images/logo.png" alt="logo" class="logo-light" />
+          <img src="./assets/images/logo.png" alt="logo" class="logo-dark" />
+        </a>
+
+        <p class="footer-text">
+          Learn about Web Development, Web performance, and Database
+          management.
+        </p>
+      </div>
+
+      <div class="wrapper">
+        <p class="footer-title">Quick Links</p>
+
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/niteshkr3308" class="footer-link"
+              target="_blank">Linkdin</a>
+          </li>
+
+          <li>
+            <a href="https://github.com/niteshkr3308?tab=repositories" target="_blank" class="footer-link">GitHub</a>
+          </li>
+
+          <li>
+            <a href="https://x.com/ctrl_z_power" target="_blank" class="footer-link">Twitter</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="wrapper">
+        <p class="footer-title">Social Media</p>
+
+        <ul>
+          <li>
+            <a href="hhttps://www.instagram.com/k_i_n_g_n_i_t_e_s_h/" target="_blank" class="footer-link">Instagram</a>
+          </li>
+
+          <li>
+            <a href="https://www.youtube.com/channel/UCABjscxm_joE2aiJ5UWCa-A" target="_blank" class="footer-link">Youtube</a>
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+
+    <p class="copyright">
+      &copy; Copyright 2023
+      <a href="https://www.linkedin.com/in/niteshkr3308" target="_blank">Nitesh Kumar</a>
+      All rights reserved.
+    </p>
+  </footer>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
