@@ -55,3 +55,22 @@ window.onscroll = () => {
 function scrollToTop() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
+
+// for animated name 
+const text = "Nitesh Kumar";
+const textElement = document.getElementById('nitesh-text');
+let index = 0;
+
+function displayText() {
+    textElement.innerHTML += text[index];
+    index++;
+
+    if (index >= text.length) {
+        index = 0;  // Reset index to 0 when end of text is reached
+        textElement.innerHTML = ''; // Clear the existing text before starting again
+    }
+
+    setTimeout(displayText, 300); // 200 milliseconds delay
+}
+
+displayText();
