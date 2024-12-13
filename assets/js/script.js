@@ -71,7 +71,7 @@ function displayText() {
       setTimeout(()=> {
         textElement.innerHTML = '';
         index = 0;
-        displayTest();
+        displayText();
       }, 1000);
     }
   }
