@@ -65,12 +65,15 @@ function displayText() {
     textElement.innerHTML += text[index];
     index++;
 
-    if (index >= text.length) {
-        index = 0;  // Reset index to 0 when end of text is reached
-        textElement.innerHTML = ''; // Clear the existing text before starting again
+    if (index < text.length) {
+        setTimeout(displayText, 300);  // Reset index to 0 when end of text is reached
+    } else {
+      setTimeout(()=> {
+        textElement.innerHTML = '';
+        index = 0;
+        displayTest();
+      }, 1000);
     }
-
-    setTimeout(displayText, 300); // 200 milliseconds delay
-}
+  }
 
 displayText();
