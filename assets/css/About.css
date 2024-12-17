@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0a0c10;
+    color: #fff;
+}
+
+section {
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 span {
+    color: #00bcd4;
+}
+
+.para {
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: darkslategrey;
+}
+
+  
+.journey {
+    text-align: center;
+}
+
+.education-certification {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.education, .certification {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: #1a1f25;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+
+
+    border-radius: 8px;
+    width: 100%;
+}
+
+.skills {
+    background: #11151c;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.coding-skills, .professional-skills {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.skill-bar {
+    margin-bottom: 15px;
+}
+
+.skill-bar p {
+    margin-bottom: 5px;
+}
+
+.skill-bar div {
+    width: 100%;
+    background: #333;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-bar span {
+    display: block;
+    height: 100%;
+    background: linear-gradient(90deg, #ff6f61, #ffb300);
+}
+
+.contact {
+    text-align: center;
+    background: #0d1117;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    width: 103%;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    font-size: 17px;
+    background: #00bcd4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #008ba3;
+}
+
+footer {
+    text-align: center;
+    background: #111;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+
+
+.card:hover {
+    background: #2c353f; /* Change the background color on hover */
+    transform: translateY(-5px); /* Slightly lift the card */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Increase shadow for a lifted effect */
+  }
+
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.blink {
+    animation: blink 1s infinite;
+}

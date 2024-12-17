@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0a0c10;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+span {
+    color: deepskyblue;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: #1a1f25;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 1.5rem;
+}
+
+.project {
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0;
+}
+
+.project:last-child {
+    border-bottom: none;
+}
+
+.project h2 {
+    color: orangered;
+}
+
+strong {
+    color: deepskyblue;
+}
+.project p {
+    margin: 0.5rem 0;
+    color: whitesmoke;
+    font-family: cursive;
+}
+
+.rating {
+    color: #ff9800;
+    margin: 0.5rem 0;
+}
+
+.download-btn, 
+.live-btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.download-btn:hover, 
+.live-btn:hover {
+    background-color: #0056b3;
+}
+
+
+.output-video {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    display: block;
+}
+
+.button-style {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .button-style:hover {
+    background-color: #0056b3;
+  }
+
+  footer {
+    text-align: center;
+    background: white;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 1rem;
+    }
+
+    header {
+        font-size: 1.2rem;
+        padding: 0.8rem;
+    }
+
+    .project h2 {
+        font-size: 1.2rem;
+    }
+
+    .project p {
+        font-size: 1rem;
+    }
+
+    .download-btn {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+        padding: 1rem;
+        margin: 1rem auto;
+    }
+
+    header {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+
+    .project h2 {
+        font-size: 1rem;
+    }
+
+    .project p {
+        font-size: 0.9rem;
+    }
+
+    .download-btn {
+        padding: 0.3rem 0.6rem;
+        font-size: 0.8rem;
+    }
+}
