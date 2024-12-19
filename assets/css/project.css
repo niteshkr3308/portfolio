@@ -44,12 +44,12 @@ strong {
 }
 .project p {
     margin: 0.5rem 0;
-    color: whitesmoke;
+    color: rgb(245, 245, 245);
     font-family: cursive;
 }
 
 .rating {
-    color: #ff9800;
+    color: #ff0d00;
     margin: 0.5rem 0;
 }
 
