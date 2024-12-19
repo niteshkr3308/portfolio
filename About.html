@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Journey</title>
     <link rel="stylesheet" href="./assets/css/About.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3.11.0/dist/email.min.js"></script>
 </head>
 
 <body>
@@ -134,25 +136,27 @@
     <section class="contact">
         <h1>Feedback <span>Form!</span></h1>
         <p style="color: orangered;">Your Feedback Is Important For Us ....... </p>
-        <form>
+        <form id="feedbackForm">
             <div class="form-group">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
+              <input type="text" id="feedbackName" placeholder="Full Name" required>
+              <input type="email" id="feedbackEmail" placeholder="Email Address" required>
             </div>
             <div class="form-group">
-                <input type="Number" placeholder="Mobile Number">
-                <input type="text" placeholder="University Name">
-                
+              <input type="number" id="feedbackPhone" placeholder="Mobile Number" required>
+              <input type="text" id="feedbackUniversity" placeholder="University Name" required>
             </div>
-            <textarea placeholder="Your Message"></textarea>
+            <textarea id="feedbackMessage" placeholder="Your Message" required></textarea>
             <button type="submit">Submit</button>
             <button type="button" onclick="window.location.href='index.html';">Back to Home</button>
-        </form>
+          </form>
+          
     </section>
 
     <footer>
         <p>Copyright &copy; 2024 by <span style="color: deepskyblue">Nitesh Kumar Sah</span>  | All Rights Reserved.</p>
     </footer>
+
+    <script src="./assets/js/About.js"></script>
 
 </body>
 

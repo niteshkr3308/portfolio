@@ -264,7 +264,7 @@ header .flex-wrapper {
 .logo-light,
 .logo-dark {
   display: none;
-  width: 150px; /* Adjust width as needed */
+  width: 180px; /* Adjust width as needed */
   height: auto; 
 }
 
@@ -908,6 +908,16 @@ footer .wrapper {
   }
 
   .hero-img {
+    transition: transform 0.5s ease-in-out, translate 0.5s ease-in-out;
+  }
+  
+  .hero-img:hover {
+    transform: translate(30px, -15px); /* Moves the image upward smoothly */
+  }
+  
+  
+
+  .hero-img {
     width: 80%;
     height: 234%;
     object-fit: contain;
@@ -924,7 +934,7 @@ footer .wrapper {
   }
 
   .hero .shape-1 {
-    background-color: rgb(107, 78, 232);
+    background-color: #1a1f25;
     width: 90%;
     height: 90%;
     z-index: -1;
@@ -933,7 +943,7 @@ footer .wrapper {
   .hero .shape-2 {
     width: 92%;
     height: 92%;
-    box-shadow: inset 0 -30px 0 rgb(96, 3, 106);
+    box-shadow: inset 0 -35px 10px hsl(229, 76%, 66%);
     z-index: 2;
   }
 
@@ -1130,3 +1140,5 @@ footer .wrapper {
     margin-bottom: 0.3rem;
   }
 }
+
+

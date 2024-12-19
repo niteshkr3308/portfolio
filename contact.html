@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="./assets/css/contact.css">
   <!-- Font Awesome for icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- EmailJS library -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3.11.0/dist/email.min.js"></script>
+
 </head>
 <body>
   <div class="contact-container">
@@ -35,13 +38,14 @@
     </div>
     <div class="contact-form">
         <h2><strong>Contact Us</strong></h2>
-        <form>
-          <input type="text" placeholder="Enter your Name" required>
-          <input type="email" placeholder="Enter a valid email address" required>
-          <textarea placeholder="Message" required></textarea>
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Enter your Name" required>
+          <input type="email" id="email" placeholder="Enter a valid email address" required>
+          <textarea id="message" placeholder="Message" required></textarea>
           <button type="submit">Submit</button>
           <button type="button" onclick="window.location.href='index.html';">Back to Home</button>
         </form>
+        
       
         <!-- Social Media Links Section -->
         <div class="social-links">
@@ -71,6 +75,8 @@
       <footer>
         <p>Copyright &copy; 2024 by <span style="color: rgb(1, 174, 231);">Nitesh Kumar Sah</span> | All Rights Reserved.</p>
     </footer>
+
+    <script src="./assets/js/contact.js"></script>
 
 </body>
 </html>
