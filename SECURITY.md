@@ -1,12 +1,11 @@
-
 # Security Policy
 
 ## Supported Versions
 
 We currently do not enforce any specific security headers or policies for this application. Below are the versions of this project and their security-related configurations:
 
-| Version | Supported | Notes |
-|---------|-----------|-------|
+| Version | Supported | Notes                    |
+|---------|-----------|--------------------------|
 | 1.x     | Yes       | Security headers disabled |
 
 ## Reporting Vulnerabilities
